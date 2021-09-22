@@ -12,19 +12,25 @@ cost of running the client facility as well as to increase the liveability and p
 Project Description
 
 o	Load the data to warehouse using MYSQL script
+
 o	Transform the data using dbt connect to warehouse
+
 o	Build A Dashboard using redash
 
 Instillation
 
 o	Pip install apache airflow
+
 o	Pip install dbt
 
 Skills
 
 o	Create and maintain Airflow DAGs
+
 o	Work with Apache Airflow, dbt, redash  and a DWH
+
 o	Apply ELT techniques to DWH
+
 o	Build data pipelines and orchestration workflows
 
 Knowledge

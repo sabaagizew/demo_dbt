@@ -1,0 +1,10 @@
+demo_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      server: local host
+      port: 3306
+      schema: station
+      username: root
+      password: 

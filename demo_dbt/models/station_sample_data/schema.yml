@@ -1,0 +1,55 @@
+version: 2 
+
+models: 
+  - name: station_sample_data
+    description: This database contains data 
+    columns: 
+
+      - name: ID
+        description: Unique sensor identifier
+        tests:
+
+          - not_null
+
+      - name: Latitude
+        description: Latitude of the sensor
+        tets:
+
+          - not_null
+
+      - name: Longitude
+        description: Longitude of the sensor
+        tests:
+
+          - not_null
+
+  - name: stat_model
+
+    description: The table contains summary information on the sensors and data flow 
+
+    columns: 
+
+      - name: ID 
+        description: Unique sensor identifier
+        tests: 
+
+          - not_null 
+
+  - name: stat_median
+
+    description: detailed description of sensors   
+
+    columns: 
+
+      - name: ID 
+        description: Unique sensor identifier
+        tests:
+
+          - not_null 
+      
+      - name: n_obs
+
+        tests: 
+          
+
+          - not_null 

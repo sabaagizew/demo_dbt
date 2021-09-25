@@ -3,8 +3,8 @@ demo_dbt:
   outputs:
     dev:
       type: mysql
-      server: local host
+      server: localhost:3306
       port: 3306
       schema: station
       username: root
-      password: 
+      password: data@OSQL2021
